@@ -1,0 +1,46 @@
+.is-disabled{
+    visibility: hidden;
+}
+
+.App {
+    
+    background-color: #05292E;
+    min-width: 100vw;
+    min-height: 100vh;
+    padding-bottom: 1rem;
+}
+
+.app_title {
+    margin: 0 0 4rem 0;
+    background-image: url("/backgrounds/background_rickandmorty.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 180px;
+    background-size: 100% auto;
+    min-width: 100vw;
+  
+
+
+
+
+}
+
+@media (min-width: 350px) {
+    .app_title{
+        height: 200px;
+        background-size: 100% auto;
+        min-width: 100vw;
+    }
+  }
+
+@media (min-width: 680px) {
+    .app_title{
+        background-size: cover;
+        height: 500px;
+    }
+  }
+
+.app_error {
+    text-align: center;
+
+}
